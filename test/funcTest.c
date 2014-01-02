@@ -10,7 +10,7 @@ int main( void )
 
 	length = analyse( string, &minChar, &maxChar );
 	assert( length == 7 );
-	assert( minChar == 'e' );
+	assert( minChar == 'T' );
 	assert( maxChar == 't' );
 
 	return 0;
