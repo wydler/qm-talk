@@ -1,0 +1,13 @@
+language: cpp
+
+git:
+  submodules: false
+  depth: 1
+
+before_install:
+ - sudo apt-get update -qq
+
+script:
+ - cmake .
+ - make
+ - make test ARGS="-V"
