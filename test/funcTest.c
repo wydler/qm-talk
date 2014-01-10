@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "../src/func.h"
+#include "func.h"
 
 int main( void )
 {
