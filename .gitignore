@@ -8,5 +8,8 @@ Makefile
 cmake_install.cmake
 install_manifest.txt
 
+/* out of source build directory */
+build
+
 /* Tmp files */
 Testing/

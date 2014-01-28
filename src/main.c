@@ -1,4 +1,4 @@
-#include "func.h"
+#include "analyse.h"
 #include <stdio.h>
 
 int main( void )
@@ -16,12 +16,12 @@ int main( void )
 		/* exit condition for (infinite) loop */
 		if( (string[0] == 'q') && (string[1] == '\0') )
 		{
-			printf( "Programm wird beendet! \n" );
+			printf( "Programm wird beendet!\n" );
 			break;
 		}
 
-		length = analyse( string, &minChar, &maxChar );
-		printf( "length: %d, minChar: %c, maxChar: %c \n\n", length, minChar, maxChar );
+		length = analyseMinMax( string, &minChar, &maxChar );
+		printf( "length: %d, minChar: %c, maxChar: %c\n\n", length, minChar, maxChar );
 	}
 
 	return 0;

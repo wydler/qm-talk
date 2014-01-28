@@ -1,6 +1,6 @@
-#include "func.h"
+#include "analyse.h"
 
-int analyse( char string[], char * minChar, char * maxChar )
+int analyseMinMax( char string[], char * minChar, char * maxChar )
 {
 	int i = 0;
 

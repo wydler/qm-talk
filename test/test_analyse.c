@@ -1,5 +1,8 @@
+#include "analyse.h"
+
 #include <assert.h>
-#include "func.h"
+#include <string.h>
+
 
 int main( void )
 {
@@ -8,7 +11,8 @@ int main( void )
 	char maxChar = '\0';
 	int length = 0;
 
-	length = analyse( string, &minChar, &maxChar );
+	length = analyseMinMax( string, &minChar, &maxChar );
+
 	assert( length == 7 );
 	assert( minChar == 'T' );
 	assert( maxChar == 't' );
