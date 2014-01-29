@@ -14,7 +14,7 @@ int main( int argc, char *argv[] )
 	for( i = 0; i < 10; i++ ) {
 		printf( "%d ", i);
 	}
-	printf( "\n" );
+	printf( "\nGoodbye World\n" );
 
 	return 0;
 }
